@@ -7,11 +7,14 @@ https://www.kaggle.com/datasets/mexwell/pizza-sales
 
 **Objective:**
 
-To create a dashboard summarising sales data for the fictional company Slice and Dice Pizza. The design of the dashboard should be in the style of the Contoso Skateboard Store dashboard (see attached word document for screenshot).
+To create a dashboard summarising sales data for the fictional company Slice and Dice Pizza. The design of the dashboard should be in the style of the Contoso Skateboard Store dashboard shown in the screenshot below.
+
+![image](https://github.com/user-attachments/assets/3ef3027d-d6d3-4b48-aca1-819bcd06ac74)
+
 
 **Method:**
 
-Along with the CSV file, Kaggle had some text available in the Data Card section that detailed the fictional menu items. I copied this and used Excel to create a Menu table to be used in analysis.
+Along with the CSV file, Kaggle had some text available in the Data Card section that detailed the fictional menu items. I copied this and used Excel to create a Menu table to be used in analysis (added original text as word document).
 I connected the Excel file to Power Query and transformed the data to establish several dim tables, setting their relationships to the fact_sales table. It was necessary to form a bridge table to allow for analysis of individual ingredient use.
 
 Once the model was loaded to Power BI, I was able to add a custom date table using DAX along with several custom measures.
